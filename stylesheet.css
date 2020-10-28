@@ -1,0 +1,107 @@
+body {
+    background-image: url(https://i.imgur.com/TVNlxhz.png) !important;
+    background-size: cover;
+    background-position: top;
+}
+@media only screen and (max-width: 2000px) {
+    body {
+    background-image: url(https://i.imgur.com/TVNlxhz.png) !important;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: top;    
+    }    
+}
+#Title {
+    background-color: rgba(34, 148, 255, 0.74);
+    border: 5mm ridge rgba(0, 102, 255, 0.666);
+    font: small-caps bold 20px/2 serif;
+}
+#steel {
+    background-color: rgb(216, 216, 216);
+    padding: 2em;
+    border: 20mm ridge rgb(161, 161, 161);
+    font: italic small-caps bold 20px/2 sans-serif;
+    margin-top: 50px;
+    
+    }
+#steel:hover {
+    background-color: rgba(209, 209, 209, 0.589);
+    transition: all 0.5s ease-in-out;
+}
+#electric {
+    background-color: rgba(250, 221, 1, 0.7);
+    padding: 2em;
+    border: 30mm ridge rgba(255, 183, 0, 0.556);
+    font: italic 20px/2 "Fira Sans", serif;
+    margin-top: 50px;
+    }   
+#electric:hover {
+    background-color: rgba(234, 255, 0, 0.419);
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease-out;
+}
+#psychic {
+    background-color: rgba(133, 0, 216, 0.728);
+    padding: 2em;       
+    border: 20mm ridge rgba(96, 26, 128, 0.604);
+    font: italic small-caps bold 20px/2 cursive;
+    color: black;
+    margin-top: 50px;
+    }    
+#psychic:hover {
+    background-color: rgba(48, 9, 70, 0.543);
+    color: white;
+    transition: all 0.5s ease-out;
+}
+#myBtn {
+    background-color: rgb(201, 201, 201);
+    border: 1mm outset rgb(141, 141, 141);
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
+#myBtn:active {
+    border: 0.3mm inset rgb(0, 255, 21)
+}
+#myBtn:hover {
+    background-color: rgba(177, 177, 177, 0.557);
+    transition: all 0.2s ease-out;
+}
+#myBtn a {
+    color: rgb(0, 0, 0);
+}
+#myBtn a:hover {
+    text-decoration: none;
+}
+footer {
+    color: rgb(0, 0, 0);
+    background-color: rgb(18, 225, 252);
+}
+
+.imagecenter {
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(74, 254, 200, 0.865);
+    border:10px ridge rgba(0, 0, 0, 0.482);
+}
+
+.dropdown-menu{
+    background-color: rgba(43, 250, 171, 0.495);
+    color: rgb(187, 32, 32);
+}
+
+.page-footer{
+    background-color: rgba(43, 250, 171, 0.783);
+    color: black;
+}
+
+.image-card{
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.529);
+
+}
