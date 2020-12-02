@@ -1,7 +1,7 @@
 body {
     background-image: url(https://i.imgur.com/TVNlxhz.png) !important;
     background-size: cover;
-    background-position: top;
+    background-position: top; 
 }
 @media only screen and (max-width: 2000px) {
     body {
@@ -44,7 +44,7 @@ body {
     background-color: rgba(133, 0, 216, 0.728);
     padding: 2em;       
     border: 20mm ridge rgba(96, 26, 128, 0.604);
-    font: italic small-caps bold 20px/2 cursive;
+    font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
     color: black;
     margin-top: 50px;
     }    
@@ -103,5 +103,19 @@ nav {
     display:inline-block;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.529);
+}
 
+#psychic_image:hover {
+    border: 5px solid rgba(212, 0, 255, 0.562);
+    transition: .2s;
+}
+
+#electric_image:hover {
+    border: 5px solid rgba(212, 0, 255, 0.562);
+    transition: .2s;
+}
+
+#steel_image:hover {
+    border: 5px solid rgba(201, 201, 201, 0.562);
+    transition: .2s;
 }
