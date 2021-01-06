@@ -111,7 +111,7 @@ nav {
 }
 
 #electric_image:hover {
-    border: 5px solid rgba(212, 0, 255, 0.562);
+    border: 5px solid rgba(255, 225, 0, 0.872);
     transition: .2s;
 }
 
@@ -119,3 +119,18 @@ nav {
     border: 5px solid rgba(201, 201, 201, 0.562);
     transition: .2s;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.sticky+.top{
+    padding-top: 60px;
+};
+
