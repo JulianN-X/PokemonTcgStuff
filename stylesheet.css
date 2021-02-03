@@ -132,9 +132,9 @@ nav {
 
 .sticky+.top{
     padding-top: 60px;
-};
+}
 
-//=================================================================
+
 
 #cardholder {
     margin: 50px 0;
@@ -144,9 +144,32 @@ nav {
     box-sizing: border-box;
 }
 
+.img-zoom-container {
+    position: relative;
+}
 
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4e4e4;
+    width: 40px;
+    height: 40px;
+}
 
+.img-zoom-result {
+    border: 1px solid #d4e4e4;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
 
+.card-description {
+    color: #c7ebc3;
+}
+.card-description-container {
+    background-color: rgba(76, 0, 255, 0.755);
+    padding:15px ;
+    margin: 50px 0;
+}
 
 
 
